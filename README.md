@@ -3,6 +3,13 @@
 **Description:-**
 This project is to build a model that predicts the human activities such as Walking, Walking_Upstairs, Walking_Downstairs, Sitting, Standing or Laying.<br/>This dataset is collected from 30 persons(referred as subjects in this dataset), performing different activities with a smartphone to their waists. The data is recorded with the help of sensors (accelerometer and Gyroscope) in that smartphone. This experiment was video recorded to label the data manually.
 
+**How to use:-**
+* The HAR_EDA.ipynb contains all the analysis done on the complete data, so use it for getting complete insight of the data.
+* All classical machine learning models are implemented in HAR_PREDICTION_MODELS.ipynb using proper feature engineered features.
+* HAR_LSTM.ipynb contains the predicitions using LSTM deep learning models.
+
+**All of the conclusions & proper comparisons between models performances can be seen in ipynb notebooks.
+
 **Problem-Statement:**
 Human Activity Recognition (HAR) using smartphones dataset and an LSTM RNN. Classifying the type of movement amongst six categories(multi-class classification).
 
@@ -38,9 +45,3 @@ Human Activity Recognition (HAR) using smartphones dataset and an LSTM RNN. Clas
 * The dataset was split into train (70%) and test (30%) sets based on data for subjects, e.g. 21 Persons data for train and 9 persons data for test.
 * Each data-point corresponds to one of the six-activities
 * 7352 train and 2947 test samples
-
-
-**Note:-**
-* There are three main signal types in the raw data: total acceleration, body acceleration, and body gyroscope. Each has 3 axises of data. This means that there are a total of nine variables for each time step.
-
-* one row of data has (128 * 9), or 1,152 elements.
