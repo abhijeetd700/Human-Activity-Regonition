@@ -8,7 +8,7 @@ This project is to build a model that predicts the human activities such as Walk
 * All classical machine learning models are implemented in HAR_PREDICTION_MODELS.ipynb using proper feature engineered features.
 * HAR_LSTM.ipynb contains the predicitions using LSTM deep learning models.
 
-**All of the conclusions & proper comparisons between models performances can be seen in ipynb notebooks.
+**All of the conclusions & proper comparisons between models performances can be seen in ipynb notebooks.**
 
 **Problem-Statement:**
 Human Activity Recognition (HAR) using smartphones dataset and an LSTM RNN. Classifying the type of movement amongst six categories(multi-class classification).
